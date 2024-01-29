@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <a><span>Student Management</span></a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Signin</a>
+        </nav>
+    </header>
+    <section class="details">
+        <div class="form-container">
+
+            <h2>Application Form</h2>
+            <form action="">
+                <h2>Applicatant Details</h2>
+                <label for="firstname">FirstName</label>
+                <input type="text" name="firstname" id="fname" required>
+                <br>
+                <label for="lastname">LastName</label>
+                <input type="text" name="lastname" id="lname" required>
+                <br>
+                <h3>Gender</h3>
+                <input type="radio" name="gender" value="male"><label for="male">Male</label>
+                <input type="radio" name="gender" value="female"><label for="female">Female</label>
+                <br>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob" required>
+                <br>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" required >
+                <br>
+                <label for="country">Country</label>
+                <input type="text" name="country" id="country" required>
+                <br>
+                <label for="phone">Phone No</label>
+                <input type="number" name="phone" id="phone" required>
+                <br>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="address">Address</label>
+                <input type="text" name="address" id="street1" required>
+                <input type="text" name="address" id="street2" required>
+                <br>
+                <select name="state" id="state">
+                </select>
+                <select name="district" id="district">
+                    <option>select district</option>
+                </select>
+                <br>
+                <label for="pincode">Pincode</label>
+                <input type="text" name="pincode" id="pincode" required>
+                <hr>
+                <h2>Parent's Details</h2>
+                <label for="fathername">Father's Name</label>
+                <input type="text" name="fathername" id="fathername" required>
+                <br>
+                <label for="mothername">Mother's Name</label>
+                <input type="text" name="mothername" id="mothername" required>
+                <br>
+                <label for="occupation">Occupation</label>
+                <input type="text" name="occupation" id="occupation" required>
+                <br>
+                <label for="income">Annual Income</label>
+                <input type="number" name="income" id="income" required>
+                <br>
+                <label for="fphone">Father's Phone No</label>
+                <input type="number" name="fphone" id="fphone" required>
+                <br>
+                <label for="mphone">Mothers's Phone No</label>
+                <input type="number" name="mphone" id="mphone">
+                <br>
+                <hr>
+                <h2>Educational Details</h2>
+                <label for="school10">School name</label>
+                <input type="text" name="school10" id="school10">
+                <br>
+                <label for="mark10">10th Mark</label>
+                <input type="number" name="mark10" id="mark10">
+                <br>
+                <label for="city1">City</label>
+                <input type="text" name="city1" id="city1">
+                <br>
+                <label for="school12">School name</label>
+                <input type="text" name="school12" id="school12">
+                <br>
+                <label for="mark12">12th Mark</label>
+                <input type="number" name="mark12" id="mark12">
+                <br>
+                <label for="city2">City</label>
+                <input type="text" name="city2" id="city2">
+                <br>
+                <hr>
+                <h2>Upload Documents</h2>
+                <label for="pphoto">Your Photo</label>
+                <input type="file" name="pphoto" id="pphoto" accept="image/jpg,image/png, image/jpeg">
+                <br>
+                <label for="certi10">10 Certificate</label>
+                <input type="file" name="certi10" id="certi10" accept="image/jpg,image/png, image/jpeg, .pdf">
+                <br>
+                <label for="certi12">12 Mark Screenshot</label>
+                <input type="file" name="certi12" id="certi12" accept="image/jpg,image/png, image/jpeg">
+                <br>
+                <input type="checkbox" name="check" id="check">
+                <label for="check">Check all the details</label>
+                <br>
+                <input type="checkbox" name="tc" id="tc">
+                <label for="tc">Terms and Condition <a href="#">apply</a></label>
+                <br>
+                <input type="button" value="submit" id="submit" onclick="push()" disabled>
+            </form>
+        </div>
+    </section>
+</body>
+<script type="text/javascript" src="js/script.js">
+</script>
+
+</html>
